@@ -1,0 +1,21 @@
+.container {
+width:100;
+background-color:rgba(9, 226, 172, 0.087);
+padding: 15px 0;
+box-shadow: 0 4px 4px 0 rgba(18, 205, 161, 0.795);
+display:flex;
+justify-content:flex-end;
+
+}
+
+
+button {
+    background-color:rgb(0, 0, 0) ;
+    color:rgba(255, 246, 246, 0.933);
+   
+      
+}
+
+.margen {
+    margin-right: 140px;
+}

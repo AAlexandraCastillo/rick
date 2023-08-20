@@ -1,0 +1,40 @@
+@keyframes animateBackground {
+    from { background-position: 0 0; }
+    to { background-position: 100% 100%; }
+  }
+  
+  .miDiv {
+    width: 100%;
+    overflow: auto;
+    height: 100vh;
+    background-size:cover;
+    background: url(http://4.bp.blogspot.com/_ecNZSVR4JCI/TSZLA_eN9LI/AAAAAAAAA1U/fIFq6KutfsI/s1600/71577.jpg);
+    background-attachment: fixed;
+    
+    
+    
+  }
+
+
+  .miImagen {
+    transition: transform 1s; /* Este será el tiempo que tomará la rotación */
+  }
+  
+  .miImagen.rotar {
+    transform: rotate(360deg); /* Esto hará que la imagen gire 360 grados */
+  }
+
+  .miImagen {
+
+    width: 400px;
+    height:500px;
+    object-fit:cover;
+    border: 3px solid #333;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.05); 
+    display: flex;
+  }
+
+.color{
+  color:beige
+}
