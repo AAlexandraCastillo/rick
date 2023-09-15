@@ -1,0 +1,40 @@
+.tarj{
+    border: 2px solid #10fa6e78;
+border-Radius: 5px;
+width: 180px;
+padding: 10px;
+box-Sizing: border-box;
+text-align: center;
+margin-Bottom: 10px;
+height: 700px;
+width: 400px;
+margin-left: 450px;
+background-color:rgba(0, 1, 1, 0.467);
+box-shadow: 0 0 10px #3ed13e, 0 0 20px #64d086, 0 0 30px #22f134, 0 0 40px #07e607;
+transition: transform 0.3s ease;
+}
+.tarj:hover{
+    transform:translateY(-10px);
+}
+
+
+
+.fondo{
+    background-Attachment:fixed;
+    background-color: rgba(0, 0, 0, 0.751);
+}
+
+
+
+h1{
+    color:#e2eae2;
+    font-family: 'Creepster', cursive;
+}
+
+
+.button{
+    background-color:rgba(10, 173, 255, 0.611);
+    width: 90px;
+    height: 40px;
+    
+}

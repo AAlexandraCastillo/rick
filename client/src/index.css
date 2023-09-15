@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  background: url(https://i.pinimg.com/736x/1e/15/3e/1e153e18d0e66bf912d094bc807f2715--rick-y-morty-dibujos-rick-and-morty-wallpaper.jpg);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
