@@ -8,18 +8,18 @@
 }
 
 .input{
-    width: 60%;
+    width: 80%;
     height: 50%;
     border-radius: 0.3rem;
     border: none;
     padding: 0 0 0 1rem;
 }
 
-.btn{
+.button {
     width: 6vw;
     height: 4vh;
     border-radius: 0.3rem;
-    background-color: rgb(255, 255, 97);
+    background-color: rgb(1, 13, 4);
     border: none;
     cursor: pointer;
 }

@@ -43,17 +43,18 @@
   
 }
 .blancas{
-  color:aliceblue;
+  color:#f8f7f7;
   margin-left: 80px;
-  font-size: 30px;
+  font-size: 24px;
   font-style:oblique;
-  font-family: Arial;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 1px; /*espacio de letras*/ 
 }
 
 /*class para los <p> de errores*/
 
 .error {
-    color: rgb(239, 223, 223); }
+    color: rgb(163, 254, 231); }
     
 
     .boton {
@@ -66,8 +67,40 @@
         width: 170px;
         margin-left: 50px;  /*empujo a la derecha al boton*/
         box-shadow: 0 0 10px #09f654, 0 0 20px #09e88f, 0 0 30px #08e217, 0 0 40px #07e607; 
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+        text-transform: uppercase; /*cambia a mayuscula la letra*/
+        cursor: pointer; /*cambia el cursor a una manito*/
+        transition: background-color 0.3s ease;
+
         
       }
+      .boton:hover {
+        background-color: rgb(65, 246, 15); /* Cambiar el color de fondo al color del texto original */
+        color: #000000; /* Cambiar el color del texto al color de fondo original */
+    }
+    
+    .boton {
+        /* Tus estilos existentes... */
+        background-color: #000000;
+        color: rgb(65, 246, 15);
+        border-radius: 12px;
+        transform: scale(1.08);
+        height: 27px;
+        width: 170px;
+        margin-left: 50px;
+        box-shadow: 0 0 10px #09f654, 0 0 20px #09e88f, 0 0 30px #08e217, 0 0 40px #07e607;
+        
+        /* Añadimos un margen en la parte superior */
+        margin-top: 30px; /* Puedes ajustar el valor según la distancia que quieras */
+    }
+    
+    
+    
+    
+    
+    
+    
 
       
     .icono{
@@ -95,7 +128,22 @@
     position: relative;
   z-index: 2;
     }
-    
-    
-    
-      
+
+    footer {
+      width: 100%;
+      background-color: #010201f0; /* Color de fondo oscuro */
+      color: #fff; /* Color de texto blanco */
+      padding: 20px 0; /* Espaciado arriba y abajo */
+      position: absolute; /* Posición absoluta */
+      bottom: 0; /* Asegurarse de que esté en la parte inferior de la página */
+      left: 0; /* Asegurarse de que esté alineado a la izquierda */
+      text-align: center; /* Centrar el texto horizontalmente */
+      flex-shrink: 0;
+  }
+  
+  /* Estilo para el párrafo dentro del pie de página */
+  footer p {
+      margin: 0; /* Quitar margen */
+      font-size: 14px; /* Tamaño de la fuente */
+  }
+  
